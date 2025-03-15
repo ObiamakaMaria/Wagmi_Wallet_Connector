@@ -6,7 +6,8 @@
 This project provides a simple and user-friendly Wallet Connect modal using Wagmi, a popular React hooks library for Ethereum-based wallets. It allows users to connect, disconnect, and switch networks between supported chains in a seamless manner.
 
 ## Features
- Connect and disconnect wallets using multiple connectors (Injected Wallet, WalletConnect, etc.).
+ Connect and disconnect wallets using multiple connectors (Injected Wallet).
+ 
  Display the connected wallet's address.
  Allow users to switch between supported networks.
  UI designed with Tailwind CSS .
@@ -41,8 +42,6 @@ To run this project locally, follow these steps:
 2. Choose a connector (e.g., MetaMask, WalletConnect) to connect your wallet.
 3. Once connected, the modal will display your wallet address and allow you to switch networks.
 4. Click **Disconnect Wallet** to log out.
-
-
 
 
 ## Supported Chains
