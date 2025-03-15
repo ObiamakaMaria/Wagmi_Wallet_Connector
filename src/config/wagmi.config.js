@@ -10,7 +10,6 @@ export const config = createConfig({
   // })],
   multiInjectedProviderDiscovery: true,
   transports: {
-    [mainnet.id]: http(),
-    [sepolia.id]: http(),
+    
   },
 })
